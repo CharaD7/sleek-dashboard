@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '>= 3.8.6'
 
 group :jekyll_plugins do
-  gem 'jekyll-sitemap'
+  gem 'jekyll-sitemap', '>= 1.3.0'
 end
